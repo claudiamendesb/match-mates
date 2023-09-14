@@ -10,6 +10,7 @@ import { Routes, Route,  NavLink, useNavigate } from "react-router-dom";
 
 
 
+
 //hello
 // HOW THEY HAD IT ON THE WEBSITE
 // const CALORIES_URL = 'https://calories-burned-by-api-ninjas.p.rapidapi.com/v1/caloriesburned?activity=padel&weight=158&duration=60';

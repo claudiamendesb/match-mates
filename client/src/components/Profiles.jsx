@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import "./Profiles.css";
 import { useNavigate, useLocation } from 'react-router-dom';
+import BackToTop from "./BackToTop";
 
 function Profiles() {
   const [users, setUsers] = useState([]);
@@ -61,6 +62,7 @@ function Profiles() {
           </div>
         </div>
       ))}
+      <BackToTop />
     </div>
   );
 }
